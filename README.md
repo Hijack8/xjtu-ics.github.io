@@ -80,7 +80,7 @@ Lecture,2,2025-02-25T19:10:00,2025-02-25T21:00:00,Machine Prog: Basics,Danfeng S
     - "Lab 2: Bomb Lab": labs/lab2.md
     - "Lab 3: Attack Lab": labs/lab3.md
     - "Lab 4: Cache Lab": labs/lab4.md
-    # - "Lab 5: Optimization Lab": labs/lab5.md
+    - "Lab 5: Optimization Lab": labs/lab5.md
     # - "Lab 6: Linker Lab": labs/lab6.md
 ```
 这里控制着网页的目录结构，如果想发布指导书，只需删除注释即可。
