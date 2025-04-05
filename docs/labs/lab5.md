@@ -10,6 +10,8 @@
 
 本次实验使用一台新的 ARM 服务器。由于实验结果与 CPU 型号强相关，本次试验只能远程进行。连接方式、账户名称等与以前的实验相同，但是服务器域名变成了 `arm.ics.xjtu-ants.net`，端口号为 22。具体的操作请参考原来的环境配置说明。
 
+> 我们强制你在首次登陆时修改你的初始密码，vscode 可能不支持这一操作，请使用命令行 ssh 登陆后进行修改（Powershell/cmd on Windows, bash on Linux/Mac OS），再尝试 vscode 登陆即可。
+
 ## 注意事项
 
 本次实验的机器使用鲲鹏 920 CPU，是一个 ARM 体系结构的 CPU，与课本上介绍的 x86-64 体系结构共享许多概念。课上的论述都可以适用于这款CPU，但是由于具体实现的不同，Latency，Throughput 和 Functional Unit 的具体数值不同，具体可以参考[这份手册](https://developer.arm.com/documentation/uan0016/a/)，访问有困难可以下载[本站托管版本](../assets/files/cortex_a72_software_optimization_guide_external.pdf)。手册的第二章讲解了 Functional Unit 及其流水线，第三章列出了各个指令可用的 Functional Unit，以及 Latency, Throughput 数据。
@@ -242,7 +244,7 @@ void measure_time(poly_func_t poly, const double a[], double x, long degree, dou
 - `a`: 多项式系数
 - `x`: 自变量
 - `degree`: 多项式的度数
-- `time`: 输出测量得到的运行时间
+- `time`: 输出测量得到的运行时间，单位为纳秒
 
 注意到头文件中定义的 `DEGREE` 值了吗？本实验多项式度数不会超过 `DEGREE` (5000)。
 
