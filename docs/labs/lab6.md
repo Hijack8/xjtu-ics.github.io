@@ -363,6 +363,7 @@ $ gdb --args ./build/ics-linker testcases/test0/glbvar.o -o testcases/test0/test
 由于`relocTable`的类型为`std::vector`，可以使用以下方法遍历它：
 
 ```c++
+// obj指每一个需要重定位的目标文件
 for (auto &re : obj.relocTable) {
 	re.sym = ...
   re.name = ...
