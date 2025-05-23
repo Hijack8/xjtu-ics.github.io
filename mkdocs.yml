@@ -104,6 +104,7 @@ nav:
     - "Lab 4: Cache Lab": labs/lab4.md
     - "Lab 5: Optimization Lab": labs/lab5.md
     - "Lab 6: Linker Lab": labs/lab6.md
+    - "Lab 7: Malloc Lab": labs/lab7.md
   - Staff: staff/index.md
   - Policies: policies/index.md
   - Resources:
