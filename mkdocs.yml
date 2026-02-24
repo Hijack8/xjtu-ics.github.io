@@ -96,7 +96,6 @@ extra_javascript:
 # Page tree
 nav:
   - Overview: index.md
-  - Calendar: calendar/index.md
   - Labs:
     - "Lab 0: Tutorial and Environmental Preparation": labs/lab0.md
     # - "Lab 1: Data Lab": labs/lab1.md
