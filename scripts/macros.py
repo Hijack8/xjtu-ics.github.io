@@ -3,7 +3,7 @@ import re
 def define_env(env):
     @env.macro
     def read_csv(csv_path):
-        df = pd.read_csv(csv_path)
+        df = pd.read_csv(csv_path, dtype=str)
         df['theme'] = df['theme'].fillna('TBA')
         df.fillna('', inplace=True)
         # only select Lecture
@@ -13,7 +13,6 @@ def define_env(env):
         df['Materials'] = df['Materials'].apply(lambda str: f"[:material-presentation-play: Slides]({str}){{.md-button}}" if str != "" else "")
         df['Date'] = pd.to_datetime(df['Date']).dt.date
         markdown_table = df.to_markdown(index=False, tablefmt="github")
-        
         lines = markdown_table.split("\n")
         header = lines[0]
         separator = lines[1] 
