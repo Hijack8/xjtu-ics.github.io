@@ -210,7 +210,7 @@ gcc -O -Wall -m32 -o ishow ishow.c
 
 - 查看报错，根据报错分析产生原因
 - 直接咨询Google或者ChatGPT, DeepSeek等
-- 若无法成功解决则咨询助教或登录[Piazza](https://piazza.com/stu.xjtu.edu.cn/spring2025/xjtuics)询问
+- 若无法成功解决则咨询助教或登录[Piazza](https://piazza.com/stu.xjtu.edu.cn/spring2026/xjtuics)询问
 
 #### 尝试运行
 

@@ -19,7 +19,7 @@
 
 面对面答疑：请大家在Office Hour与老师进行面对面答疑。
 
-网上答疑：请大家在[Piazza](https://piazza.com/stu.xjtu.edu.cn/spring2025/xjtuics)上提问，
+网上答疑：请大家在[Piazza](https://piazza.com/stu.xjtu.edu.cn/spring2026/xjtuics)上提问，
 老师和助教会对大家的问题做出解答。
 
 ## 实验

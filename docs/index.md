@@ -103,7 +103,7 @@ Enjoy!
 
 ## Getting Help
 
-- [Piazza](https://piazza.com/stu.xjtu.edu.cn/spring2025/xjtuics)
+- [Piazza](https://piazza.com/stu.xjtu.edu.cn/spring2026/xjtuics)
 - QQ group: 1030663999
 - Office Hours
     - Danfeng Shan: 21:30-22:30, Every Tuesday and Thursday
